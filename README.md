@@ -12,7 +12,7 @@ sh container-up.sh
 Com os containeres já em execução, basta testar seu funcionamento no navegador.
 
 Página principal: https://localhost:80
-Erro: https://localhost:80/qualquercoisa
-Svc 1: https://localhost:8001 ou https://localhost:80/servico1
-Svc 2: https://localhost:8002 ou https://localhost:80/servico2
-LoadBalancer: https://localhost:8003  (Atualizar a página para observar a requisição sendo alteranada entre svc 1 e 2).
+Erro: http://localhost:80/qualquercoisa
+Svc 1: http://localhost:8001 ou http://localhost:80/servico1
+Svc 2: http://localhost:8002 ou http://localhost:80/servico2
+LoadBalancer: http://localhost:8003  (Atualizar a página para observar a requisição sendo alteranada entre svc 1 e 2).
