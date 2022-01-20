@@ -11,7 +11,7 @@ sh container-up.sh
 
 Com os containeres já em execução, basta testar seu funcionamento no navegador.
 
-Página principal: https://localhost:80
+Página principal: http://localhost:80
 Erro: http://localhost:80/qualquercoisa
 Svc 1: http://localhost:8001 ou http://localhost:80/servico1
 Svc 2: http://localhost:8002 ou http://localhost:80/servico2
